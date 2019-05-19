@@ -20,3 +20,16 @@ This repo is for my develop interview.
 - [ ] It doesn't need to be pretty, it just needs to be functional ;)
 
 ![UI Suggested Wireframe](https://github.com/Pay-Baymax/MobileDeveloperChallenge/raw/master/ui_suggestion.png)
+
+
+## Output:
+
+### Config
+- Modify App-Config  for `refresh_rate` in seconds, `secret_key` to your owns if necessary.
+- Modify Api-Params for `source` by currency code provided in API.
+
+### Feature
+- Watch Currency Change Live (refresh periodicly every 30 mins by default)
+- List of Currency provided by API
+- Always live using background-fetch (live every 30 mins by default)
+- Select Desired source currency to watch and compare rates
